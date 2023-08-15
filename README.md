@@ -115,7 +115,7 @@ By observing the program output when running the reader and writer threads concu
 the shared variable to always increment upwards. However, we see it sometimes decreases unexpectedly. This happens
 because of unsynchronized reads and writes to the shared variable.
 
-![docs/read_write_problem.png](docs/figs/read_write_problem.png)
+<img src="docs/figs/read_write_problem.png" width="300"></img>
 
 To synchronize access, semaphores are used:
 
