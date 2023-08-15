@@ -99,11 +99,11 @@ repetitive tasks.
 
 ![docs/lab5.png](docs/figs/lab5.png)
 
-## 6. Thread Synchronization: Dining Philosophers and Reader-Writer
+### 6. Thread Synchronization: Dining Philosophers and Reader-Writer
 
 This assignment focuses on two concurrency problems:
 
-### Reader-Writer Problem
+#### Reader-Writer Problem
 
 The reader-writer problem models a scenario where multiple threads access a shared resource (like a file or database).
 This problem is modeled with threads and shared memory as below.
@@ -131,7 +131,7 @@ semaphores.
 |-------------------------------------------|-------------------------------------------|
 | ![Writer Image](labs/lab_6/Q1/Writer.png) | ![Reader Image](labs/lab_6/Q1/Reader.png) |
 
-### Dining Philosophers
+#### Dining Philosophers
 
 The dining philosophers problem models resource allocation between processes.
 
