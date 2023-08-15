@@ -45,7 +45,7 @@ The following bash scripts are created:
 
 - [Q6.sh](Q6.sh): A calculator for real numbers with functions, arguments, return values.
 
-![docs/ascii_art.png](docs/ascii_art.png)
+![docs/ascii_art.png](docs/figs/ascii_art.png)
 
 ### 4. Inter-process Communication: Chat Server
 
@@ -70,7 +70,7 @@ The following client commands are implemented:
 - `leave [group_id]` - Leave a group
 - `quit` - Disconnect from server
 
-![docs/chat.png](docs/chat.png)
+![docs/chat.png](docs/figs/chat.png)
 
 In addition, two processes are created that communicate via two pipelines. One process sends a string, the other
 converts casing (lower to upper, upper to lower) and sends it back. For example the string "This is First Process" is
@@ -97,7 +97,7 @@ the same array.
 The parallel version runs much faster than the serial version, demonstrating the benefits of multiprocessing for
 repetitive tasks.
 
-![docs/lab5.png](docs/lab5.png)
+![docs/lab5.png](docs/figs/lab5.png)
 
 ## 6. Thread Synchronization: Dining Philosophers and Reader-Writer
 
@@ -115,7 +115,7 @@ By observing the program output when running the reader and writer threads concu
 the shared variable to always increment upwards. However, we see it sometimes decreases unexpectedly. This happens
 because of unsynchronized reads and writes to the shared variable.
 
-![docs/read_write_problem.png](docs/read_write_problem.png)
+![docs/read_write_problem.png](docs/figs/read_write_problem.png)
 
 To synchronize access, semaphores are used:
 
@@ -146,7 +146,7 @@ If a philosopher tries to pick up a second chopstick that is already in use, the
 chopstick is available again. This prevents deadlock. The solution also prevents starvation by tracking which
 philosophers are currently eating. Sample output can be seen below:
 
-![docs/dining_philosophers.png](docs/dining_philosophers.png)
+![docs/dining_philosophers.png](docs/figs/dining_philosophers.png)
 
 ### 7. Deadlocks: Banker's Algorithm
 
